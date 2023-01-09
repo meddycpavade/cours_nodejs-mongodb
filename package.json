@@ -4,12 +4,16 @@
   "description": "Cours DRC NodeJS et MongoDB",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:dev": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "meddycpavade",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
   }
 }
